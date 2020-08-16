@@ -72,7 +72,9 @@
         </h1>
 
         <!--Button go to pop-up form-->
-        <button type="button" class="button">Заказать услугу</button>
+        <button type="button" class="button" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
 
       <!--Work principles-->
@@ -540,6 +542,15 @@
       </section>
     </main>
 
+    <!--MODAL WINDOW-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="button-modal">
+          <img src="./images/cross.svg" class="modal-cross" />
+        </button>
+      </div>
+    </div>
+
     <!--Footer-->
     <footer class="footer">
       <div class="conteiner footer-flexbox">
@@ -623,5 +634,6 @@
         <!--Dont forget create form here-->
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
