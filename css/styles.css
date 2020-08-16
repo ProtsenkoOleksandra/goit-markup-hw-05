@@ -130,8 +130,24 @@ body {
   letter-spacing: 0.02em;
 }
 
+.site-menu {
+  position: relative;
+}
+
 .link.currant {
   color: var(--acent-text-color);
+}
+
+.link.currant::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--acent-text-color);
+  border-radius: 2px;
 }
 
 .top-nav {
