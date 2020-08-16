@@ -308,6 +308,10 @@ body {
   margin-right: 0px;
 }
 .work-list-title {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 27px;
@@ -321,6 +325,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.project-group {
+  position: relative;
 }
 
 .item .project-pic {
